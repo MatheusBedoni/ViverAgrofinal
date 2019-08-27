@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "885825002085",
+    "firebase_url": "https://viveragroo.firebaseio.com",
+    "project_id": "viveragroo",
+    "storage_bucket": "viveragroo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885825002085:android:78e40d630b6ce696",
+        "android_client_info": {
+          "package_name": "com.app.viveragro.viveragro2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885825002085-742n2gr0ao3i5vbvnj77rlegcdsg1eao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHzv7IQXpExvvqH2iPm1B7l-BveM4yjKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885825002085-742n2gr0ao3i5vbvnj77rlegcdsg1eao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885825002085:android:7ef2be460ee35631",
+        "android_client_info": {
+          "package_name": "com.example.viveragrofinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885825002085-742n2gr0ao3i5vbvnj77rlegcdsg1eao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHzv7IQXpExvvqH2iPm1B7l-BveM4yjKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885825002085-742n2gr0ao3i5vbvnj77rlegcdsg1eao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

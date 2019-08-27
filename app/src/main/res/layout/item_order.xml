@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+   >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/profissionais"
+        android:visibility="visible"
+        android:elevation="4dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentTop="true"
+        >
+
+
+        <TextView
+            android:id="@+id/nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_marginStart="14dp"
+            android:layout_marginLeft="14dp"
+
+            android:layout_toEndOf="@+id/imageView2"
+            android:layout_toRightOf="@+id/imageView2"
+            android:text="TextView"
+            android:textSize="15dp"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/avaliacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nome"
+            android:layout_alignStart="@+id/nome"
+            android:layout_alignLeft="@+id/nome"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="11dp"
+            android:text="TextView"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/produtor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nome"
+            android:layout_alignStart="@+id/nome"
+            android:layout_alignLeft="@+id/nome"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="46dp"
+            android:text="TextView"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/cornnn" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
